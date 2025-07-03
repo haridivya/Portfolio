@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal-Portfolio(Divya)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background: #161b22;
+      padding: 1em;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5em;
+      padding: 0;
+      margin: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #c9d1d9;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    section {
+      padding: 3em 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #58a6ff;
+    }
+    ul li {
+      margin-bottom: 0.5em;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75em 1.5em;
+      margin: 1em 0.5em 0 0;
+      background-color: #238636;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #2ea043;
+      transform: translateY(-2px);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5em;
+      background-color: #161b22;
+      color: #8b949e;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav data-aos="fade-down">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#coding">Coding Profiles</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!-- <li><a href="FAANGPath_Simple_Template__1_.pdf" download>Download Resume</a></li> -->
+    </ul>
+  </nav>
+
+  <section id="hero" data-aos="fade-up">
+    <h1>H. Divya</h1>
+    <p>Final-year CSE (Data Science) Student | Aspiring Python Developer</p>
+    <a href="#contact" class="btn">Contact Me</a>
+    <!-- <a href="FAANGPath_Simple_Template__1_.pdf" download class="btn">Download Resume</a> -->
+  </section>
+
+  <section id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>I’m a final-year Computer Science student passionate about Python development. I enjoy solving real-world problems through code and have strong skills in Python, SQL, NoSQL, HTML, and CSS. I'm focused on backend logic, data handling, and creating simple, effective applications.</p>
+  </section>
+
+  <section id="skills" data-aos="fade-left">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Java (Basics)</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>MySQL</li>
+      <li>NoSQL</li>
+    </ul>
+  </section>
+
+  <section id="education" data-aos="zoom-in-up">
+    <h2>Education</h2>
+    <ul>
+      <li>B.Tech in Data Science, Mother Therese Institute of Engineering – Expected 2026 – CGPA: 8.25/10</li>
+      <li>Intermediate, Sai Sri Chaitanya Junior College – 2020–2022 – 64%</li>
+      <li>SSC, Sri Sarada English Medium High School – 2020 – 83%</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="flip-left">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>To Do List App</strong> – <a href="https://github.com/haridivya/Projects.py/blob/main/todolist.py">GitHub</a></li>
+      <li><strong>Banking Program</strong> – <a href="https://github.com/haridivya/python_project/blob/main/bankProgram.py">GitHub</a></li>
+      <li><strong>Portfolio Website</strong> – <a href="https://github.com/haridivya/Portfolio">GitHub</a></li>
+      <li><strong>Memory Card Game</strong> – <a href="https://github.com/haridivya/memorycardgame">GitHub</a></li>
+    </ul>
+  </section>
+
+  <section id="certifications" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Python Basics – HackerRank</li>
+      <li>Programming with Java – NPTEL</li>
+      <li>Python Fundamentals – Great Learning</li>
+    </ul>
+  </section>
+
+  <section id="coding" data-aos="fade-up-right">
+    <h2>Coding Profiles</h2>
+    <ul>
+      <li><a href="https://leetcode.com/u/haridivya018/">LeetCode</a></li>
+      <li><a href="https://www.hackerrank.com/profile/haridivya018">HackerRank</a></li>
+      <li><a href="https://www.codechef.com/users/haridivya018">CodeChef</a></li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="zoom-in">
+    <h2>Contact Me</h2>
+    <p >PhoneNumber: 9390877018</p>
+    <p>Email: <a href="mailto:haridivya018@gmail.com">haridivya018@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/divya018">linkedin.com/in/divya018</a></p>
+    <p>GitHub: <a href="https://github.com/haridivya">github.com/haridivya</a></p>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 H. Divya</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
